@@ -1,0 +1,3 @@
+<script type="text/javascript" src="http://ytchannelembed.com/ytce-frgallery.js"></script>
+<div style="width:100%;max-width:710px;" class="ytce" data-user="UC8go1GVoqdat3iKSTBYMrmA" data-rows="10" data-ratio="hd" data-width="130" data-margin="15" data-desc="150" data-desc_color="9E9E9E" data-title="30" data-title_color="000000" data-https="0" data-duration="1" data-views="1" data-likes="1" data-dislikes="1" data-fav="1" data-cols="5" >
+</div>
