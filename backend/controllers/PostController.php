@@ -123,9 +123,10 @@ class PostController extends BackendController {
     				$subject = "New Post ";
     				$headers = "From:  Zoravor Surb Astvacacin Church <info@surbzoravor.am>". "\r\n" . 'content-type:text/html' . "\r\n";
     				$emails = Subscribe::model()->findAll();
-    				foreach ($emails as $email){
-    				    mail($email->email, $subject, $text,$headers);
-    				}
+    				//foreach ($emails as $email){
+    				    //mail($email->email, $subject, $text,$headers);
+    				    mail('grigoryanaram88@gmail.com', $subject, $text,$headers);
+    				//}
 				}
 				
 				
