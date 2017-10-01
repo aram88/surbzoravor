@@ -14,8 +14,6 @@ class QuestionController extends  FrontendController{
             if ($model->save()){
                 Yii::app()->user->setFlash('success', "Շնորհակալություն ձեր հարցի համար մենք շուտով ձեզ կպատասխանենք");
                 $this->redirect('/');
-            }else{
-                debug($model->errors);
             }
         }
         $this->render('index',array('model'=>$model,'questions'=>$questions));
