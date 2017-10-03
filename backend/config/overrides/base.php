@@ -38,6 +38,9 @@ return [
             'errorAction' => 'site/error'
         ),
         'urlManager' => [
+            'urlFormat'=>'path',
+            'showScriptName'=>false,
+            'caseSensitive'=>false,
             // Some sane usability rules
             'rules' => [
                 '<controller:\w+>/<id:\d+>' => '<controller>/view',
