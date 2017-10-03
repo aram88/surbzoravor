@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22b02160-e171-4c16-853f-3f53b9af5bdc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/config/overrides/base.php" afterPath="$PROJECT_DIR$/backend/config/overrides/base.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/www/.htaccess" afterPath="$PROJECT_DIR$/backend/www/.htaccess" />
     </list>
     <ignored path="zoravor09272017.iws" />
@@ -85,17 +84,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".htaccess" pinned="false" current-in-tab="false">
+      <file leaf-file-name=".htaccess" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/backend/www/.htaccess">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="866">
+              <caret line="557" column="0" selection-start-line="557" selection-start-column="0" selection-end-line="557" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="base.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/config/overrides/base.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="670">
@@ -124,8 +123,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/backend/controllers/BackendSiteController.php" />
-        <option value="$PROJECT_DIR$/backend/www/.htaccess" />
         <option value="$PROJECT_DIR$/backend/config/overrides/base.php" />
+        <option value="$PROJECT_DIR$/backend/www/.htaccess" />
       </list>
     </option>
   </component>
@@ -420,12 +419,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1507057619665</updated>
-      <workItem from="1507057620899" duration="2319000" />
+      <workItem from="1507057620899" duration="2686000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2319000" />
+    <option name="totallyTimeSpent" value="2686000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1918" height="1038" extended-state="0" />
@@ -514,18 +513,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/www/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/config/overrides/base.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="670">
           <caret line="49" column="47" selection-start-line="49" selection-start-column="47" selection-end-line="49" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/www/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="866">
+          <caret line="557" column="0" selection-start-line="557" selection-start-column="0" selection-end-line="557" selection-end-column="0" />
           <folding />
         </state>
       </provider>
