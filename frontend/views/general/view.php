@@ -1,7 +1,8 @@
+<?php if(!empty($days)){ ?>
 <h1 class="divRed txtC">
 	<?php echo $days->name?>
 </h1>
-
+<?php }?>
 <div class="Bmargin20">
 <?php if (isset($days->events)):?>
     <?php foreach ($days->events as $event):?>

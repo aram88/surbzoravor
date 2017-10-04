@@ -116,6 +116,8 @@ class PostController extends BackendController {
 				    $model->text=substr($model->text,0,$firts_point+1);
 				}
 				if ($model->type !=1 && $model->home_page == 1){
+					ini_set('memory_limit', '-1');
+					ini_set('max_execution_time', 0);
     				$text = "Բարև ձեզ  մեր կայքում ավելացել է նոր նյութ։
     				     <br/> <br/><b>".$model->name
     			        ."</b><br/> <br/>".$model->text
@@ -123,10 +125,9 @@ class PostController extends BackendController {
     				$subject = "New Post ";
     				$headers = "From:  Zoravor Surb Astvacacin Church <info@surbzoravor.am>". "\r\n" . 'content-type:text/html' . "\r\n";
     				$emails = Subscribe::model()->findAll();
-    				//foreach ($emails as $email){
-    				    //mail($email->email, $subject, $text,$headers);
-    				    mail('grigoryanaram88@gmail.com', $subject, $text,$headers);
-    				//}
+    				foreach ($emails as $email){
+    				    mail($email->email, $subject, $text,$headers);
+    				}
 				}
 				
 				
